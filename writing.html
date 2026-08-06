@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Writing — Darren Yau</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+      *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-size: 16px;
+      }
+
+      body {
+        font-family: 'Charis SIL', Georgia, serif;
+        font-size: 1.05rem;
+        line-height: 1.5;
+        color: #1a1a1a;
+        background: #fff;
+        padding: 0 1.5rem;
+      }
+
+      main {
+        max-width: 560px;
+        margin: 5rem auto 8rem auto;
+      }
+
+      /* ── Header ── */
+      header {
+        margin-bottom: 2.75rem;
+      }
+
+      .site-name {
+        font-size: 1.05rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        line-height: 1.4;
+        margin-bottom: 0.2rem;
+      }
+
+      .site-name a {
+        text-decoration: none;
+        color: #1a1a1a;
+      }
+
+      .site-subtitle {
+        font-size: 1.05rem;
+        font-weight: 400;
+        font-style: italic;
+        color: #1a1a1a;
+        line-height: 1.4;
+        margin-bottom: 1.4rem;
+      }
+
+      nav {
+        display: flex;
+        gap: 1.5rem;
+      }
+
+      nav a {
+        font-size: 1.05rem;
+        text-decoration: none;
+        color: #1a1a1a;
+        border-bottom: 1px solid #1a1a1a;
+        padding-bottom: 0;
+        transition: color 0.15s, border-color 0.15s;
+      }
+
+      nav a:hover {
+        color: #555;
+        border-color: #999;
+      }
+
+      /* ── Writing list ── */
+      .writing-section {
+        margin-bottom: 2.75rem;
+      }
+
+      .writing-section h2 {
+        font-size: 1.05rem;
+        font-weight: 700;
+        font-style: normal;
+        color: #1a1a1a;
+        margin-bottom: 1.5rem;
+      }
+
+      .paper {
+        margin-bottom: 1.75rem;
+        padding-bottom: 1.75rem;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .paper:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+
+      .paper-title {
+        font-size: 1.05rem;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-bottom: 0.25rem;
+      }
+
+      .paper-title a {
+        color: #1a1a1a;
+        text-decoration: none;
+        border-bottom: 1px solid #aaa;
+        padding-bottom: 0;
+        transition: border-color 0.15s;
+      }
+
+      .paper-title a:hover {
+        border-color: #1a1a1a;
+      }
+
+      .paper-meta {
+        font-size: 0.9rem;
+        color: #777;
+        line-height: 1.5;
+      }
+
+      /* ── Mobile ── */
+      @media only screen and (max-width: 600px) {
+        main {
+          margin-top: 3rem;
+          margin-bottom: 5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="site-name"><a href="index.html">Darren Yau</a></p>
+        <p class="site-subtitle">Assistant Professor of Theology, Ethics, and Politics</p>
+        <nav>
+          <a href="writing.html">Writing</a>
+          <a href="https://calendly.com/dyau/baylor" target="_blank" rel="noopener">Office Hours</a>
+        </nav>
+      </header>
+
+      <div class="writing-section">
+        <h2>Working</h2>
+        <div class="paper">
+          <p class="paper-title">Martin Luther King Jr. on Black Internationalism</p>
+        </div>
+      </div>
+
+      <div class="writing-section">
+        <h2>Published</h2>
+        <div class="paper">
+          <p class="paper-title"><a href="https://philpapers.org/rec/YAUDAA" target="_blank" rel="noopener">Direct Action and Political Coercion</a></p>
+          <p class="paper-meta"><em>Journal of the Society of Christian Ethics</em>, 44 (2), 341–357 (2024)</p>
+        </div>
+      </div>
+
+    </main>
+  </body>
+</html>
